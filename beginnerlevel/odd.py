@@ -1,2 +1,2 @@
-odd = [x for x in range(20) if x%1 == 0]
+odd = [x for x in range(20) if x%2!=0]
 print(odd)
